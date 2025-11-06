@@ -1,3 +1,10 @@
+# Como rodar
+Digite na linha de comando:
+```
+npm run dev
+```
+Abra o endereço IP após 'Local:' (CTRL + clique no VS Code.)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
