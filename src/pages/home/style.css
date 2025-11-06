@@ -1,72 +1,74 @@
 .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 100px;
 }
 
 h1 {
-  font-size: 32px;
-  margin: 25px;
+	font-size: 32px;
+	margin: 25px;
 }
 
-form, .card {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 30px;
-  border-radius: 10px;
-  border: 1px solid lightgrey;
-  max-width: 50%;
-  width: 400px;
-  margin-bottom: 20px;
+form,
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 30px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	max-width: 50%;
+	width: 400px;
+	margin-bottom: 20px;
 
-  & input, select {
-    border: none;
-    border-bottom: 1px solid lightgrey;
-    height: 40px;
-    color: black;
-    font-size: 16px;
-    padding-left: 10px;
-    outline: none;
-    background-color: white;
-  }
+	& input,
+	select {
+		border: none;
+		border-bottom: 1px solid lightgrey;
+		height: 40px;
+		color: black;
+		font-size: 16px;
+		padding-left: 10px;
+		outline: none;
+		background-color: white;
+	}
 }
 
 button {
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  height: 40px;
-  cursor: pointer;
-  background-color: white;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
 
-  &:hover {
-    background-color: lightgrey;
-  }
+	&:hover {
+		background-color: lightgrey;
+	}
 }
 
 .delete-button {
-  border-radius: 5px;
-  background-color: pink;
-  height: 40px;
-  cursor: pointer;
-  color: red;
-  opacity: 80%;
+	border-radius: 5px;
+	background-color: pink;
+	height: 40px;
+	cursor: pointer;
+	color: red;
+	opacity: 80%;
 
-  &:hover {
-    opacity: 50%;
-  }
+	&:hover {
+		opacity: 50%;
+	}
 }
 
 .error-message {
-  text-align: center;
-  gap: 15px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: pink;
-  max-width: 50%;
-  width: 400px;
-  margin-bottom: 20px;
-  color: red;
-  opacity: 80%;
+	text-align: center;
+	gap: 15px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: pink;
+	max-width: 50%;
+	width: 400px;
+	margin-bottom: 20px;
+	color: red;
+	opacity: 80%;
 }
