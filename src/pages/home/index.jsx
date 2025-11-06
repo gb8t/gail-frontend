@@ -47,8 +47,8 @@ export default function Home() {
 
   return (
     <div className='container'>
+      <h1>Dados Pessoais</h1>
       <form>
-        <h1>Cadastro de Pessoa</h1>
         <input name='nome' type='text' placeholder='Nome' ref={inputNome} required/>
         <input name='email' type='email' placeholder='E-Mail' ref={inputEmail} required/>
         <input name='nascimento' type='date' placeholder='Data de nascimento' ref={inputNascimento} required/>
@@ -70,7 +70,7 @@ export default function Home() {
           <option value="SUDESTE">Sudeste</option>
           <option value="SUL">Sul</option>
         </select>
-        <button type='button' onClick={createPessoa}>Cadastrar</button>
+        <button type='button' onClick={createPessoa}>Próximo →</button>
       </form>
 
       {pessoas.map((item, index) => (
