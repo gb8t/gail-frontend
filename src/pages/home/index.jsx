@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import api from '../../services/api'
-
 import './style.css'
 
 export default function Home() {
@@ -55,7 +54,7 @@ export default function Home() {
         <input name='altura' type='number' min="0" placeholder='Altura (cm)' ref={inputAltura} required/>
         <input name='peso' type='number' min="0" placeholder='Peso (kg)' ref={inputPeso} required/>
         <select name='raca' type='text' ref={inputRaca} required>
-          <option value="">Selecione uma raça</option>
+          <option>Selecione uma raça</option>
           <option value="AMARELO">Amarelo</option>
           <option value="BRANCO">Branco</option>
           <option value="INDIGENA">Indígena</option>
@@ -63,7 +62,7 @@ export default function Home() {
           <option value="PRETO">Preto</option>
         </select>
         <select name='regiao' type='text' ref={inputRegiao} required>
-          <option value="">Selecione uma região</option>
+          <option>Selecione uma região</option>
           <option value="CENTRO-OESTE">Centro-Oeste</option>
           <option value="NORDESTE">Nordeste</option>
           <option value="NORTE">Norte</option>
