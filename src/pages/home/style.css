@@ -44,3 +44,29 @@ button {
     background-color: lightgrey;
   }
 }
+
+.delete-button {
+  border-radius: 5px;
+  background-color: pink;
+  height: 40px;
+  cursor: pointer;
+  color: red;
+  opacity: 80%;
+
+  &:hover {
+    opacity: 50%;
+  }
+}
+
+.error-message {
+  text-align: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: pink;
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+  color: red;
+  opacity: 80%;
+}
