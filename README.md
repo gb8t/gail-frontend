@@ -1,9 +1,10 @@
 # Como rodar
-Digite na linha de comando:
+1. Certifique-se que a backend esteja rodando (https://github.com/gb8t/gail-backend)
+2. Digite na linha de comando:
 ```
 npm run dev
 ```
-Abra o endereço IP após 'Local:' (CTRL + clique no VS Code.)
+3. Abra o endereço IP após 'Local:' (CTRL + clique no VS Code.)
 
 # React + Vite
 
