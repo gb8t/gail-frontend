@@ -1,6 +1,11 @@
 # Como rodar
 1. Certifique-se que a backend esteja rodando (https://github.com/gb8t/gail-backend)
-2. Digite na linha de comando:
+2. Instale o Vite:
+
+```
+npm install vite
+```
+3. Digite na linha de comando:
 ```
 npm run dev
 ```
